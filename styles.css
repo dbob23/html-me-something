@@ -1,13 +1,125 @@
 
+
+h1 {
+   text-align: center; 
+}
+
+nav ul{
+   text-align: center;
+   padding: 0;
+}
+
 nav ul li {
-    display: inline;
+   display: inline-block;
+   font-size: 0.75 em;
 }
-img {
-    width: 100%;
-    max-width: 100%;
+
+p {
+   padding: 4 ems;
 }
+
 figure {
-    margin: 0;
-    padding: 0;
+   display: flex;
+   margin: 30px;
+   padding: 30px;
+}
+
+figcaption {
+  font-style: italic;
+  text-align: center; 
+}
+
+.sideways {
+   transform:         rotate(90deg);
+}
+
+img {
+	width: 100%;
+	max-width: 100%;
+}
+
+#Colleen {
+   width: 30%;
+   height: 60%;
+   float: left;
+}
+
+#sign {
+  width: 30%;
+  height: 60%;
+  float: right;
+}
+
+#slipper {
+   width: 30%;
+   height: 60%;
+   float: right;
+}
+
+#view {
+   width: 30%;
+   height: 60%;
+}
+
+#tent {
+   width: 30%;
+   height: 60%;
+   float: left;
+}
+
+#river {
+   width: 50%;
+   height: 50%;
+   float: right;
+}
+
+#friends {
+   width: 30%;
+   height: 50%;
+}
+
+
+#mainStage {
+   width: 30%;
+   height: 50%;
+}
+
+#fromTheStage {
+   width: 30%;
+   height: 50%;
+}
+ 
+#Lucas {
+   width: 30%;
+   height: 50%;
+}
+
+#Caleb {
+   width: 30%;
+   height: 50%;
+}
+
+#bakery {
+   width: 30%;
+   height: 50%;
+}
+
+#Dennis {
+   width: 30%;
+   height: 50%;
+}
+
+#family {
+   width: 50%;
+   height: 75%;
+}
+
+footer {
     text-align: center;
 }
+@media screen and (max-width: 680px) {
+	nav ul li {
+		margin: 1em 0;
+		display: block;
+		font-size: 1em;
+	}
